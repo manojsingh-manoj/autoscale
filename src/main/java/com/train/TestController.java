@@ -27,7 +27,7 @@ public class TestController {
         }
     
         sb.append("Receive Request From: ").append(ipAddress).append("<br/>");
-        return new ResponseEntity<String>(sb.toString(),HttpStatus.BAD_REQUEST);
+        return new ResponseEntity<String>(sb.toString(),HttpStatus.OK);
     }
 	
 	
